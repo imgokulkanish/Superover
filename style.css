@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Satisfy&display=swap');
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    background-color: beige;
+    color:black;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    background-image: url("Assets/vkp1.jpg");
+    background-repeat: repeat;
+}
+.container{
+    background-color: white;
+    border-radius: 20px;
+    height: 400px;
+    width:700px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    align-items: center;
+    margin: auto;
+    
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container > .row{
+    justify-content: space-evenly;
+    width: 100%;
+}
+.profile-icon{
+    border-radius: 60px;
+    border:2px solid bisque;
+}
+.name{
+    margin:20px 0;
+    font-size: x-large;
+    font-weight: bold;
+}
+.round-runs{
+font-size: xx-large;
+width: 200px;
+justify-content: space-evenly;
+}
+#striker-button{
+    width:300px;
+    border-radius:35%;
+    border:none;
+    font-size: large;
+    color: white;
+    background: linear-gradient(160deg,red,blue );
+    padding: 10px;
+    margin-top: 50px;
+    outline: none;
+}
+#striker-button:hover{
+    box-shadow: 0 0 10px 0 black;
+}
